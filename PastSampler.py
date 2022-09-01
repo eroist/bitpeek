@@ -52,7 +52,7 @@ original_df = pd.read_csv(dfp).loc[:, columns]
 
 # %%
 
-file_name = 'bitcoin2015to2017_close.h5'
+file_name = 'data/bitcoin2015to2017_close.h5'
 scaler = MinMaxScaler()
 # normalization
 for c in columns:
